@@ -10,7 +10,7 @@ ADD . /app
 
 # Adding source, compile and package into a fat jar
 #ADD src/main /app/src/main
-RUN mvn package 
+#RUN mvn package 
 
 EXPOSE 8080
 
