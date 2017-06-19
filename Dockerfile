@@ -10,9 +10,9 @@ ADD . /app
 
 # Adding source, compile and package into a fat jar
 #ADD src/main /app/src/main
-RUN mvn package 
+#RUN mvn package 
 
 EXPOSE 8080
 
-CMD java -jar target/cmad-advanced-staging-demo-fat.jar
+CMD java -jar cmad-advanced-staging-demo-fat.jar
 
