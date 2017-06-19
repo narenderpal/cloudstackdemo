@@ -14,5 +14,5 @@ RUN mvn package
 
 EXPOSE 8080
 
-CMD java -jar target/cmad-advanced-staging-demo-fat.jar
+CMD java -jar cmad-advanced-staging-demo-fat.jar
 
